@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3g1Ym1ycHpma3Fvcnc1MTRmdnZrY2lpaG1jeHQ2bWh4NThkejYzNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XbnSI4OJqKevcUAamj/giphy.gif") repeat-x fixed;
+    left: 0;
+    right: 0;
+    overflow: visible;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    margin-left: 220px;
+    padding: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: orange;
+}
+
+nav li a.active {
+    background-color: purple;
+    color: white;
+}
+
+nav li a:not(.active):hover {
+    background-color: mediumpurple;
+}
+
+h1 {
+    color: forestgreen;
+    background-color: lightgrey;
+    border-bottom: 5px solid red;
+    height: 45px;
+}
+
+h2 {
+    width: 25%;
+    background-color: floralwhite;
+    border: 4px outset black;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 15px;
+    padding: 15px;
+    border: 5px dashed purple;
+    outline: 5px dotted blue;
+    outline-offset: 5px;
+}
+
+.custom-list {
+    list-style-type: '✓ ';
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.item-2 a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.item-2 a:hover {
+    color: red;
+    background-color: purple;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: limegreen;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: lightseagreen;
+}
